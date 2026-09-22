@@ -1,5 +1,5 @@
-ARG version=9
-FROM almalinux: ${version}
+ARG VERSION=9
+FROM almalinux: ${VERSION}
 ENV course="devops"\
     trainer="siva"\
     learner="bharathi"
