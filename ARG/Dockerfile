@@ -3,7 +3,7 @@ ENV course="devops"\
     trainer="siva"\
     learner="bharathi"
 #RUN echo "hello ${trainer}" > /tmp/devops.txt
-ARG USERNMAE=siva
-RUN echo "hello user:${USERNAME}"
+ARG USERNAME=siva
+RUN echo "hello user: ${USERNAME}"
 CMD ["sleep","500"]
 
