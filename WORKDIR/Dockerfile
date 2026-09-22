@@ -4,4 +4,4 @@ RUN mkdir /tmp/work
 WORKDIR /tmp/work
 RUN pwd
 RUN echo "hello" > hell.txt
-CMD ["sleep","100"]
+CMD ["sleep","400"]
